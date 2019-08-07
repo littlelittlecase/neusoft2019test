@@ -8,6 +8,7 @@ import org.apache.ibatis.type.Alias;
 
 import lombok.Data;
 //用户的Model类
+//20190807修改
 @Alias("User")
 @Data
 public class UserModel implements Serializable {
